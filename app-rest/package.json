@@ -1,0 +1,27 @@
+{
+  "name": "app-rest",
+  "version": "1.0.0",
+  "main": "app_controller.mjs",
+  "proxy": "http://localhost:8000",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app_controller.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-navigation/native": "^6.0.11",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.9",
+    "nodemon": "^2.0.16",
+    "puppeteer": "^16.1.0",
+    "react-navigation": "^4.4.4",
+    "xhr2": "^0.2.1"
+  },
+  
+  "type": "module"
+  ,
+  "description": ""
+}
