@@ -1,3 +1,3 @@
-let carInfo = {make:'', model:'', mpg:'12', img:''};
+let carInfo = {make:'', model:'', mpg:'', img:''};
 
 export default carInfo;

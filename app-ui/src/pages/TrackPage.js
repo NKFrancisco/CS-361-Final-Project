@@ -11,13 +11,6 @@ import carInfo from '../constants/car';
 
 function TrackPage() {
 
-
-  function printArray() {
-    console.log("Track List " + tracks);
-    console.log("Track URLS " + trackURL);
-    console.log(carInfo);
-  }
-
     return (
       <>
         <h2>Race Tracks Selected</h2>

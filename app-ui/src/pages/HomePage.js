@@ -25,7 +25,6 @@ function HomePage() {
   let history = useHistory();
         
   const handleSubmit = (event) => {
-      //code
       console.log("handleSubmit");
       getInfo(vehicleInfo);
       event.preventDefault();
@@ -37,6 +36,7 @@ function HomePage() {
 
     return (
       <>
+      
         <h2>Race Tracks of America</h2>
         <p>Directions: Enter vehicle information then select one or more tracks to get more information</p>
         <form onSubmit={handleSubmit}>

@@ -1,14 +1,9 @@
 import React from 'react';
 import '../App.css'
-import TrackDiv from './TrackDiv'
-import trackList from '../constants/global';
 import trackURL from '../constants/trackURLs';
-
 import trackInformation from '../constants/trackInformation';
 
 function TrackList({tracks}) {
-
-   const count = "Test";
 
     return(
         <div className='list-contain'>
@@ -22,8 +17,8 @@ function TrackList({tracks}) {
                     ${track.len}
                     ${track.turns}
                     ${track.lapRec}
-                    ${track.gasEst}
-                    `} className='track-contain'>
+                    ${track.gasEst}`} 
+                    className='track-contain'>
                         <h3>{track.name}</h3>
                         <a href={track.url}>{track.url}</a>
                         <a href={trackURL[i]}>{trackURL[i]}</a>

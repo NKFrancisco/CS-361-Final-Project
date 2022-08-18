@@ -17,8 +17,8 @@ function getInfo(vehicleInfo) {
     let trackRec = '';
     let gasEst = '';
 
-    //Calls Partner Microservice 
-    //Get Offical Links 
+    //Call Partner Microservice 
+    //Gets Offical Links 
     const callMicro = async (trackName) => {
 
         //Replace space with _ for URL 
@@ -40,20 +40,15 @@ function getInfo(vehicleInfo) {
             method: "POST"
         }
 
-        console.log(params.body);
-
         fetch('http://localhost:3000/GetLink', params)
         .then((response) => response.json())
         .then((data) => {
             //Get URL from resonse removing excess 
             let dataString = data;
-            console.log("dataString: " + dataString);
             let stringStart = dataString.search("http");
             let stringEnd = dataString.length - 2;
             let url = dataString.slice(stringStart, stringEnd);
-            console.log(url);
             trackURL.push(url)
-            //trackLink = url;
             trackLinks.push(url);
         });
     }
@@ -61,11 +56,8 @@ function getInfo(vehicleInfo) {
     //Get car image 
     const getImg = async () => {
 
-        console.log("getImg");
-
         //Make_Model String
         let makeModel = carInfo.make + "_" + vehicleInfo.model;
-        //console.log(makeModel);
 
         //Call my microservice to get car image url
         const response = await fetch('http://localhost:3000/GetCar?' 
@@ -83,9 +75,6 @@ function getInfo(vehicleInfo) {
 
     //Get track info 
     const getInfo = async (trackName, trackLink) => {
-
-        console.log("getInfo on " + trackName);
-        console.log("getInfo on " + trackLink);
 
         //Body data
         let trackBody = {'content': `${trackName}`};
@@ -106,14 +95,13 @@ function getInfo(vehicleInfo) {
             trackTurns = data[0].turns
             if (data[0].lapRec == null) {
                 trackRec = "N/A"
-            } else {
+            } 
+            else {
                 trackRec = data[0].lapRec;
             }
+            
             gasEst = data[0].gas
-
             const abc = JSON.stringify(data);
-            console.log(abc);
-
         });
 
         //Add to object to array 
@@ -145,7 +133,6 @@ function getInfo(vehicleInfo) {
         callMicro(trackList[i]);
         getInfo(trackList[i], trackLinks[i]);
     }
-
 }
 
 export default getInfo;

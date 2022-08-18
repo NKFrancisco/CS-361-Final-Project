@@ -2,10 +2,6 @@ import React from 'react';
 import '../App.css'
 import carInfo from '../constants/car';
 
-import trackURLS from '../constants/trackURLs';
-import trackList from '../constants/global'
-import { Link } from 'react-router-dom';
-
 function CarDiv() {
 
     return(
