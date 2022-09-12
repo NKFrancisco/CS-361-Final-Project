@@ -24,6 +24,6 @@ Sprint 3: Integrate with partner's project, evaluate code quality, revise (refac
 
 ## Screenshot Examples
 Home Page 
-![Home Screenshot](Home.jpg)
+![Home Screenshot](Home.png)
 Track Info Page 
-![Track Screenshot](Track.jpg)
+![Track Screenshot](Track.png)
