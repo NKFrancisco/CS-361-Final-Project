@@ -1,7 +1,7 @@
 ## CS 361 Race Tracks of America
-Grade Recieved: A
 
-REACT web app for CS 361 final project
+REACT web app utilizing microservices architecture for CS 361 final project
+Grade Recieved: A
 
 ## How to Install 
 Using a CLI goto the directories for app-rest and app-ui and run the command npm install in both directories to install the node modules and their dependncies. Then run the command npm start in both directories to start the Express server and React app. 
