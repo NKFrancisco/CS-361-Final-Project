@@ -24,6 +24,6 @@ Sprint 3: Integrate with partner's project, evaluate code quality, revise (refac
 
 ## Screenshot
 Home Page 
-![Home](https://github.com/[NKFrancisco]/[CS-361-Race-Tracks-of-America]/blob/[main]/Home.png?raw=true)
+![Home](Home.PNG)
 Track Info Page 
 ![Track](Track.PNG)
