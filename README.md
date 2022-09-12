@@ -1,5 +1,4 @@
 # CS 361 Software Development I 
-Race Tracks of America <br />
 REACT web app utilizing microservices architecture <br />
 Grade Recieved: A
 
