@@ -1,4 +1,4 @@
-# CS-361-Race-Tracks-of-America
+## CS 361 Race Tracks of America
 Grade Recieved: A
 
 REACT web app for CS 361 final project
