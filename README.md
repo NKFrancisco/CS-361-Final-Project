@@ -21,3 +21,9 @@ Here's a high-level overview of what you'll be doing this term for the project:
 Sprint 1: Plan and design UI for individual project, plan first individual project milestone, implement first individual project milestone <br />
 Sprint 2: Decide who will implement what service and how the projects/services will be connected, research microservices, plan microservice, implement microservice <br />
 Sprint 3: Integrate with partner's project, evaluate code quality, revise (refactor), complete portfolio project <br />
+
+## Screenshot Examples
+Home Page 
+![Home Screenshot](Home.jpg)
+Track Info Page 
+![Track Screenshot](Track.jpg)
