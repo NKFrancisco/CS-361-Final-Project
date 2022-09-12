@@ -22,8 +22,8 @@ Sprint 1: Plan and design UI for individual project, plan first individual proje
 Sprint 2: Decide who will implement what service and how the projects/services will be connected, research microservices, plan microservice, implement microservice <br />
 Sprint 3: Integrate with partner's project, evaluate code quality, revise (refactor), complete portfolio project <br />
 
-## Screenshot Examples
+## Screenshot
 Home Page 
 ![Home](https://github.com/[NKFrancisco]/[CS-361-Race-Tracks-of-America]/blob/[main]/Home.png?raw=true)
 Track Info Page 
-![Track](Track.png)
+![Track](Track.PNG)
