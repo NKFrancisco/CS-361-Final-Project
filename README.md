@@ -1,5 +1,6 @@
-# CS 361 - Race Tracks of America
-REACT web app utilizing microservices architecture for Software Engineering I final project <br />
+# CS 361 Software Development I 
+Race Tracks of America <br />
+REACT web app utilizing microservices architecture <br />
 Grade Recieved: A
 
 ## How to Install 
