@@ -1,6 +1,5 @@
 # CS 361 Software Development I 
 REACT web app utilizing microservices architecture <br />
-Grade Recieved: A
 
 ## How to Install 
 Using a CLI goto the directories for app-rest and app-ui and run the command npm install in both directories to install the node modules and their dependncies. Then run the command npm start in both directories to start the Express server and React app. 
