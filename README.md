@@ -1,11 +1,6 @@
 # CS 361 Software Development I 
 REACT web app utilizing microservices architecture <br />
 
-## How to Install 
-Using a CLI goto the directories for app-rest and app-ui and run the command npm install in both directories to install the node modules and their dependncies. Then run the command npm start in both directories to start the Express server and React app. 
-
-The web app will run locally on port 8000, with the server listening on port 3000
-
 ## Assignment Info
 You'll be designing and implementing software that uses the microservices architecture. In this architecture, software is split into multiple small programs that run in different processes. Each small program---or "service"---is a black box; perhaps Service A has a function named "convertCurrency", but Service B cannot see that and directly call that function. Service B can only make an indirect request to use that function, using the format required by Service A. We'll learn more about that.
 
